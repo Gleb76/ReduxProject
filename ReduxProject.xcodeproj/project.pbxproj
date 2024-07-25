@@ -11,6 +11,7 @@
 		7773079F2C526D190001E7B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7773079E2C526D190001E7B7 /* ContentView.swift */; };
 		777307A12C526D1A0001E7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777307A02C526D1A0001E7B7 /* Assets.xcassets */; };
 		777307A42C526D1A0001E7B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777307A32C526D1A0001E7B7 /* Preview Assets.xcassets */; };
+		777307AC2C526E560001E7B7 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777307AB2C526E560001E7B7 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7773079E2C526D190001E7B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		777307A02C526D1A0001E7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777307A32C526D1A0001E7B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		777307AB2C526E560001E7B7 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		7773079B2C526D190001E7B7 /* ReduxProject */ = {
 			isa = PBXGroup;
 			children = (
+				777307AA2C526E480001E7B7 /* Store */,
 				7773079C2C526D190001E7B7 /* ReduxProjectApp.swift */,
 				7773079E2C526D190001E7B7 /* ContentView.swift */,
 				777307A02C526D1A0001E7B7 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				777307A32C526D1A0001E7B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		777307AA2C526E480001E7B7 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				777307AB2C526E560001E7B7 /* Store.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777307AC2C526E560001E7B7 /* Store.swift in Sources */,
 				7773079F2C526D190001E7B7 /* ContentView.swift in Sources */,
 				7773079D2C526D190001E7B7 /* ReduxProjectApp.swift in Sources */,
 			);
