@@ -48,7 +48,7 @@ struct AddTaskView: View {
 }
 
 
-#Preview {
-    let store = Store(reducer: appReducer, state: AppState())
-    return AddTaskView().environmentObject(store)
-}
+//#Preview {
+//    let store = Store(reducer: appReducer, state: AppState())
+//    return AddTaskView().environmentObject(store)
+//}

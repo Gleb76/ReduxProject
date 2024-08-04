@@ -17,6 +17,8 @@
 		777307A12C526D1A0001E7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777307A02C526D1A0001E7B7 /* Assets.xcassets */; };
 		777307A42C526D1A0001E7B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777307A32C526D1A0001E7B7 /* Preview Assets.xcassets */; };
 		777307AC2C526E560001E7B7 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777307AB2C526E560001E7B7 /* Store.swift */; };
+		77C576372C5F8E1E00DBFC5E /* LogMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C576362C5F8E1E00DBFC5E /* LogMiddleware.swift */; };
+		77C576392C5F8F3900DBFC5E /* IncrementMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C576382C5F8F3900DBFC5E /* IncrementMiddleware.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		777307A02C526D1A0001E7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777307A32C526D1A0001E7B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		777307AB2C526E560001E7B7 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		77C576362C5F8E1E00DBFC5E /* LogMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMiddleware.swift; sourceTree = "<group>"; };
+		77C576382C5F8F3900DBFC5E /* IncrementMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementMiddleware.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +107,20 @@
 		777307AA2C526E480001E7B7 /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				77C576352C5F8E0B00DBFC5E /* middlewares */,
 				77338DC42C527E7300C7922D /* reducers */,
 				777307AB2C526E560001E7B7 /* Store.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		77C576352C5F8E0B00DBFC5E /* middlewares */ = {
+			isa = PBXGroup;
+			children = (
+				77C576362C5F8E1E00DBFC5E /* LogMiddleware.swift */,
+				77C576382C5F8F3900DBFC5E /* IncrementMiddleware.swift */,
+			);
+			path = middlewares;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +201,8 @@
 				7773079D2C526D190001E7B7 /* ReduxProjectApp.swift in Sources */,
 				77338DCD2C5280EB00C7922D /* Task.swift in Sources */,
 				77338DC82C527ECA00C7922D /* AppReducer.swift in Sources */,
+				77C576372C5F8E1E00DBFC5E /* LogMiddleware.swift in Sources */,
+				77C576392C5F8F3900DBFC5E /* IncrementMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
